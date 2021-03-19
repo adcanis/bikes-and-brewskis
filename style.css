@@ -1,0 +1,177 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    border-bottom: 3px solid #f0ad4e;
+}
+
+.logo {
+    height: 75px;
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+@media (min-width: 960px) {
+    .carousel-item {
+        height: 500px;
+    }
+}
+.eventBtns {
+    display: flex;
+    justify-content: center;
+}
+
+#eventBtns {
+    padding: 5px;
+    margin: 2px;
+}
+
+.about {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border-top: 3px solid #f0ad4e;
+}
+
+.card-img-top {
+    height: 200px;
+    border: 1px solid #536878;
+}
+
+.about h3 {
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 40px;
+    color: #292b2c;
+
+}
+
+.aboutCards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 25px;
+}
+@media (max-width: 700px) {
+    .aboutCards {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+.events {
+    background-color: #536878;
+    height: 300px;
+}
+
+.eventsHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 25px;
+}
+
+.eventsSubHeader {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+}
+
+.eventsBtnBig {
+    display: flex;
+    justify-content: center;
+}
+
+#eventBtnsBig {
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+
+
+.contact {
+    background-image: url("images/hometownbrew.jpg");
+    height: 500px;
+}
+
+.contactHeader {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.contactIcons {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contactIcons i {
+    padding: 10px;
+}
+
+.contactIcons i:hover {
+    color: #f0ad4e;
+}
+ 
+.message {
+    display: grid;
+    grid-template-rows: auto;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.input-group {
+    padding: 10px;
+}
+
+footer {
+    border-top: 3px solid #f0ad4e;
+}
+
+.footerNav {
+    display: flex;
+}
+
+.toTop {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.bikesRights {
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 50px;
+    color: #363636;
+}
+#copyrightLink {
+    text-decoration: none;
+    color: #363636;
+}
