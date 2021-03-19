@@ -75,7 +75,6 @@ nav {
 
 .events {
     background-color: #536878;
-    height: 300px;
 }
 
 .eventsHeader {
@@ -100,8 +99,7 @@ nav {
 
 #eventBtnsBig {
     padding: 15px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 25px;
 }
 
 
@@ -164,6 +162,10 @@ footer {
     margin-left: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 .copyright {
     display: flex;
     justify-content: center;

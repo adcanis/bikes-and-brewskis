@@ -17,7 +17,7 @@
         <img class="logo" src="images/bikes_logo.png">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -43,8 +43,8 @@
     <div class="slideshow">
     <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button id="eventBtns" type="button" class="btn btn-warning">2021 Event Schedule</button>
-            <button id="eventBtns" type="button" class="btn btn-secondary">Past Events</button>
+            <button id="eventBtns" type="button" class="btn btn-warning"><a href="#events">2021 Event Schedule</a></button>
+            <button id="eventBtns" type="button" class="btn btn-secondary"><a href="#events">Past Events</a></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -129,24 +129,25 @@
     </div>
 
     <div class="contactIcons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
+        <a href="https:www.facebook.com"><i class="fab fa-facebook" id="facebook"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram" id="instagram"></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter" id="twitter"></i></a>
     </div>
 
-    <form class="message">
+    <form class="message" id="contactMSG">
         <div class="input-group">
             <span class="input-group-text">Name</span>
-            <input type="text" aria-label="First name" placeholder="first" class="form-control">
-            <input type="text" aria-label="Last name" placeholder="last" class="form-control">
+            <input type="text" aria-label="First name" placeholder="first" class="form-control" id="first">
+            <input type="text" aria-label="Last name" placeholder="last" class="form-control" id="last">
           </div>
           <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon2">Email Address</span>
-            <input type="text" class="form-control" placeholder="username@example.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <input type="text" class="form-control" placeholder="username@example.com" aria-label="Recipient's username" aria-describedby="basic-addon2" id="email">
           </div>
           <div class="input-group">
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea class="form-control" aria-label="With textarea" id="textarea"></textarea>
           </div>
+          <button class="btn btn-warning" id="submit">Submit</button>
     </form>
 </div>
 </body>
@@ -160,6 +161,8 @@
       <p>Project by  <a id='copyrightLink' href='https://github.com/adcanis'><span class='fab fa-github'></span> adcanis </a></p>
     </div>
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="app.js"></script>  
 </html>
